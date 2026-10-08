@@ -1,8 +1,7 @@
 # Replit's proxy forwards Origin with the external port (e.g. :6800) but Host without it;
 # Streamlit's origin check then rejects the WebSocket and the page stays blank.
+# Don't set server.port here: Streamlit Community Cloud must run on its default 8501.
+# On Replit, pass the port on the command line: streamlit run app.py --server.port 6000
 [server]
-port = 6000
-address = "0.0.0.0"
-headless = true
 enableCORS = false
 enableXsrfProtection = false
