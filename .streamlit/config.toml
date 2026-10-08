@@ -1,0 +1,8 @@
+# Replit's proxy forwards Origin with the external port (e.g. :6800) but Host without it;
+# Streamlit's origin check then rejects the WebSocket and the page stays blank.
+[server]
+port = 6000
+address = "0.0.0.0"
+headless = true
+enableCORS = false
+enableXsrfProtection = false

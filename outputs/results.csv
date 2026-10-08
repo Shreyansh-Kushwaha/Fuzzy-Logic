@@ -1,0 +1,13 @@
+Scenario,Controller,Settling time,Max overshoot (°C),SS error (°C),Energy (%·min),Energy (kWh),Cost (₹),Switching events,Comfort (% of occupied time),Discomfort (°C·min),Final T (°C),Energy saving vs ON/OFF (%),kWh saving vs ON/OFF (%)
+A) Hot humid day,Fuzzy (Mamdani),not settled,0.0,1.74,6280.7,1.65,13.2,1,0.0,188.0,25.24,14.0,13.1
+A) Hot humid day,Fuzzy PI,29 min,0.38,0.38,7539.6,1.954,15.63,1,75.8,139.8,23.13,-3.3,-2.9
+A) Hot humid day,ON/OFF thermostat,25 min,0.23,0.55,7300.0,1.898,15.18,19,79.2,106.0,23.66,-,-
+B) Cold day,Fuzzy (Mamdani),not settled,0.0,2.81,5994.8,1.521,12.17,1,0.0,275.9,20.69,21.1,23.0
+B) Cold day,Fuzzy PI,28 min,0.0,0.0,7684.4,1.943,15.55,1,76.7,122.0,23.5,-1.1,1.7
+B) Cold day,ON/OFF thermostat,24 min,0.22,0.52,7600.0,1.976,15.81,20,80.0,91.4,23.13,-,-
+C) Mild day,Fuzzy (Mamdani),6 min,0.0,0.24,1948.9,0.52,4.16,1,95.0,3.3,23.82,-8.3,-11.1
+C) Mild day,Fuzzy PI,7 min,0.06,0.06,2117.7,0.561,4.49,1,94.2,4.5,23.45,-17.6,-20.0
+C) Mild day,ON/OFF thermostat,3 min,0.32,0.52,1800.0,0.468,3.74,10,97.5,1.6,24.36,-,-
+D) 24-hour summer day (office),Fuzzy (Mamdani),not settled,2.62,1.63,38542.0,10.241,81.93,1,22.4,192.4,21.73,-8.9,-11.3
+D) 24-hour summer day (office),Fuzzy PI,10 min,0.52,0.28,39410.6,10.315,82.52,5,100.0,0.0,23.18,-11.3,-12.1
+D) 24-hour summer day (office),ON/OFF thermostat,6 min,0.45,0.42,35400.0,9.204,73.63,180,100.0,0.0,24.38,-,-
